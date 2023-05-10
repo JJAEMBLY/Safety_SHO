@@ -57,8 +57,8 @@ class action_modifier:
             else:
                 merged_list.append(item)
 
-        main_list.remove(self.lists_to_merge[0])
-        main_list.remove(self.lists_to_merge[1])
+        main_list.remove(self.lists_to_merge[0]) #
+        main_list.remove(self.lists_to_merge[1]) #
 
         if not merged_list:
             return self.initial_main_list
